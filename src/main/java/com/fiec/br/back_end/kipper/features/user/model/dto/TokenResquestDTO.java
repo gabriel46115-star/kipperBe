@@ -1,5 +1,4 @@
-package com.fiec.br.back_end.kipper.model.dto;
-
+package com.fiec.br.back_end.kipper.features.user.model.dto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,7 +8,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString(exclude = "password")
-public class UsersDTO {
+public record TokenResquestDTO() {
 
     private Long id;
     private String name;
@@ -17,3 +16,4 @@ public class UsersDTO {
     private String password;
     private String fcmToken;
 }
+

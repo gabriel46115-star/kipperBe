@@ -1,8 +1,7 @@
-package com.fiec.br.back_end.kipper.model.entity;
+package com.fiec.br.back_end.kipper.features.user.model.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.data.annotation.Id;
 
 @Table(name = "users")
 @Getter
