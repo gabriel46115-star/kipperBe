@@ -9,5 +9,4 @@ public class KipperApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(KipperApplication.class, args);
 	}
-
 }
